@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeactivationCodes>
+
+    <DeactivationType id="1000" name="Mandatory Deactivation">
+
+        <ReasonGroup id="1100" name="Direct Request">
+            <ReasonCode id="1101" name="OFFICIAL_REQUEST" />
+            <ReasonCode id="1102" name="ADMINISTRATOR_REQUEST" />
+        </ReasonGroup>
+
+    </DeactivationType>
+
+    <DeactivationType id="2000" name="Optional Deactivation">
+
+        <ReasonGroup id="2100" name="Direct Request">
+            <ReasonCode id="2101" name="ENTERPRISE_DECISION" />
+        </ReasonGroup>
+
+        <ReasonGroup id="2200" name="Breach of Contract">
+            <ReasonCode id="2201" name="EULA_VIOLATION" />
+        </ReasonGroup>
+
+        <ReasonGroup id="2300" name="Compliance Violations">
+            <ReasonCode id="2301" name="ACCOUNT_SHARING" />
+        </ReasonGroup>
+
+        <ReasonGroup id="2400" name="Threats to Security">
+            <ReasonCode id="2401" name="SECURITY_RISK" />
+        </ReasonGroup>
+
+    </DeactivationType>
+
+</DeactivationCodes>
